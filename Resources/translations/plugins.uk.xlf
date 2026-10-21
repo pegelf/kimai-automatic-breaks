@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="uk" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Автоматичні перерви</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Кількість правил (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Застосовує відрахування при першому завершенні запису. Активні таймери не змінюються. Подальші виправлення дозволені.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Виберіть від 1 до 10 правил. Збереження меншої кількості видаляє останні правила.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Записані хвилини блоку до відрахувань. Поріг має бути перевищений і вищий за попередній. Проміжки між записами не є роботою.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Загальна перерва, а не додаткове відрахування. Наявні перерви враховуються. Найвище правило замінює попередні. Суми не можуть зменшуватися.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Максимум чистих хвилин у всіх блоках робочого дня. Перевищення віднімається з останнього завершеного запису. 0 вимикає обмеження.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Мінімальний проміжок після виходу, що перезапускає правила блоку. 0 вимикає перезапуск протягом дня. Денний максимум незалежний.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Проміжок, що починає новий робочий день і скидає обидва лічильники. Типово: 660 хвилин. Сама північ їх не скидає.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Наразі звільняє всю людину при членстві в будь-якій вибраній команді, навіть у кількох командах. Запис не містить робочої команди.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Ви внесли понад %threshold% безперервної роботи. Тому до запису автоматично додано перерву тривалістю %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Ви перевищили максимальний робочий час %threshold% за робочий день. Тому до запису автоматично додано перерву тривалістю %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> і </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# година} few {# години} other {# годин}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# хвилина} few {# хвилини} other {# хвилин}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# секунда} few {# секунди} other {# секунд}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

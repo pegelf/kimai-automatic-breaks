@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="eu" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Atsedenaldi automatikoak</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Araua</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Hau baino gehiago (minutuak)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Atsedenaldi osoa (minutuak)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Gehieneko lan-denbora (minutuak; 0 = desgaituta)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Lan-bloke berria etenaldiaren ondoren (minutuak)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Lanegun berria etenaldiaren ondoren (minutuak)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Baztertutako taldeak</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Amaitutako sarrerak editatu daitezke. Kendutako kenkariak ez dira berriro aplikatzen.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Kalkulatutako kenkariek ez dute frogatzen atsedenaldia hartu denik.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Hasierako kenkari automatikoa (minutuak)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Egiaztatu sarrera hau eskuz.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Egiaztatu atalaseen ordena, atsedenaldi osoak eta etenaldien iraupena.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Arau kopurua (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Kenkariak erregistroa lehen aldiz amaitzean aplikatzen ditu. Martxan dauden tenporizadoreak ez dira aldatzen. Geroago zuzenketak egin daitezke.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Aukeratu 1–10 arau. Kopuru txikiagoa gordetzeak azken arauak kentzen ditu.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Blokean erregistratutako minutuak kenkarien aurretik. Atalasea gainditu behar da eta aurrekoa baino handiagoa izan. Etenak ez dira lana.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Atseden osoa, ez kenkari gehigarria. Dauden atsedenak kontuan hartzen dira. Arau altuenak aurrekoak ordezkatzen ditu. Guztizkoak ezin dira txikitu.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Laneguneko bloke guztien gehieneko minutu garbiak. Soberakina amaitutako azken erregistrotik kentzen da. 0 balioak muga desgaitzen du.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Blokeko arauak berrabiarazten dituen irteeraren ondoko gutxieneko etena. 0 balioak lanegun barruko berrabiaraztea desgaitzen du. Eguneko muga independentea da.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Lanegun berria hasi eta bi kontagailuak berrezartzen dituen etena. Lehenetsia: 660 minutu. Gauerdia bakarrik ez da nahikoa.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Une honetan pertsona osoa salbuesten du hautatutako edozein taldetakoa bada, hainbat taldetakoa izan arren. Erregistroek ez dute lan-talderik.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">%threshold% baino lan jarraitu gehiago erregistratu duzu. Horregatik, %added% atseden gehitu zaizkio automatikoki erregistroari.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Laneguneko %threshold% lan-denbora maximoa gainditu duzu. Horregatik, %added% atseden gehitu zaizkio automatikoki erregistroari.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> eta </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# ordu}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# minutu}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# segundo}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

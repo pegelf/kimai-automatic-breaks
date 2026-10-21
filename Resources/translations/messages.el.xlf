@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="el" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Αυτόματα διαλείμματα</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Κανόνας</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Περισσότερο από (λεπτά)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Συνολικό διάλειμμα (λεπτά)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Μέγιστος χρόνος εργασίας (λεπτά· 0 = ανενεργό)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Νέο τμήμα εργασίας μετά από διακοπή (λεπτά)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Νέα εργάσιμη ημέρα μετά από διακοπή (λεπτά)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Εξαιρούμενες ομάδες</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Οι ολοκληρωμένες εγγραφές παραμένουν επεξεργάσιμες. Οι αφαιρέσεις που διαγράφηκαν δεν εφαρμόζονται ξανά.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Οι υπολογισμένες αφαιρέσεις δεν αποδεικνύουν ότι έγινε διάλειμμα.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Αρχική αυτόματη αφαίρεση (λεπτά)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Ελέγξτε αυτή την εγγραφή χειροκίνητα.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Ελέγξτε τη σειρά των ορίων, τα συνολικά διαλείμματα και τη διάρκεια των διακοπών.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Αριθμός κανόνων (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Εφαρμόζει αφαιρέσεις στην πρώτη ολοκλήρωση. Οι ενεργοί χρονομετρητές δεν αλλάζουν. Επιτρέπονται μεταγενέστερες διορθώσεις.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Επιλέξτε 1–10 κανόνες. Η αποθήκευση μικρότερου αριθμού αφαιρεί τους τελευταίους κανόνες.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Καταγεγραμμένα λεπτά ανά ενότητα πριν τις αφαιρέσεις. Το όριο πρέπει να ξεπεραστεί και να είναι υψηλότερο από το προηγούμενο. Οι διακοπές δεν είναι εργασία.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Συνολικό διάλειμμα, όχι πρόσθετη αφαίρεση. Τα υπάρχοντα διαλείμματα συνυπολογίζονται. Ο υψηλότερος κανόνας αντικαθιστά τους προηγούμενους. Τα σύνολα δεν μειώνονται.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Μέγιστα καθαρά λεπτά όλων των ενοτήτων της ημέρας. Η υπέρβαση αφαιρείται από την τελευταία ολοκληρωμένη εγγραφή. Το 0 απενεργοποιεί το όριο.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Ελάχιστη διακοπή μετά την έξοδο που επανεκκινεί τους κανόνες ενότητας. Το 0 απενεργοποιεί την επανεκκίνηση εντός ημέρας. Το ημερήσιο μέγιστο είναι ανεξάρτητο.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Διακοπή που αρχίζει νέα εργάσιμη ημέρα και μηδενίζει και τους δύο μετρητές. Προεπιλογή: 660 λεπτά. Τα μεσάνυχτα μόνα τους δεν τους μηδενίζουν.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Προς το παρόν εξαιρεί ολόκληρο το άτομο εάν ανήκει σε οποιαδήποτε επιλεγμένη ομάδα, ακόμη και σε πολλές. Οι εγγραφές δεν περιέχουν ομάδα εργασίας.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Καταχωρίσατε περισσότερες από %threshold% συνεχόμενης εργασίας. Προστέθηκε επομένως αυτόματα διάλειμμα %added% στην καταχώρισή σας.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Υπερβήκατε τον μέγιστο χρόνο εργασίας των %threshold% ανά εργάσιμη ημέρα. Προστέθηκε επομένως αυτόματα διάλειμμα %added% στην καταχώρισή σας.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> και </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# ώρα} other {# ώρες}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# λεπτό} other {# λεπτά}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# δευτερόλεπτο} other {# δευτερόλεπτα}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

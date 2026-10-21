@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="hu" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Automatikus szünetek</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Szabályok száma (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Az első lezáráskor alkalmaz levonásokat. A futó időmérők nem változnak. Későbbi javítások lehetségesek.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Válasszon 1–10 szabályt. Kisebb szám mentése törli az utolsó szabályokat.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Rögzített percek a blokkban levonás előtt. A küszöböt túl kell lépni, és magasabbnak kell lennie az előzőnél. A megszakítás nem munka.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Teljes szünet, nem további levonás. A meglévő szünetek beszámítanak. A legmagasabb szabály felváltja az előzőket. Az összegek nem csökkenhetnek.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>A munkanap összes blokkjának legnagyobb nettó percszáma. A többletet a legutóbb lezárt bejegyzésből vonja le. 0 kikapcsolja a korlátot.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>A blokkszabályokat újraindító legkisebb kijelentkezési szünet. 0 kikapcsolja a munkanapon belüli újraindítást. A napi maximum független.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Új munkanapot kezdő és mindkét számlálót nullázó szünet. Alapérték: 660 perc. Az éjfél önmagában nem nulláz.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Jelenleg az egész személyt mentesíti bármely kiválasztott csapat tagsága esetén, több tagságnál is. A bejegyzés nem tartalmaz munkacsapatot.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Több mint %threshold% megszakítás nélküli munkát rögzítettél. Ezért a bejegyzésedhez automatikusan %added% szünet lett hozzáadva.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Túllépted a munkanaponkénti %threshold% maximális munkaidőt. Ezért a bejegyzésedhez automatikusan %added% szünet lett hozzáadva.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> és </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# óra}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# perc}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# másodperc}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

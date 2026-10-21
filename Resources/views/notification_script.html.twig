@@ -1,0 +1,70 @@
+<style>
+    .automatic-breaks-notice { display: flex !important; opacity: 1 !important; text-align: start; line-height: 1.5; }
+    .automatic-breaks-live { position: fixed; inset-block-start: 1rem; inset-inline-end: 1rem; z-index: 1090; width: min(30rem, calc(100vw - 2rem)); max-height: 90vh; overflow-y: auto; }
+</style>
+<script>
+(() => {
+    if (window.automaticBreaksNotificationsLoaded) return;
+    window.automaticBreaksNotificationsLoaded = true;
+    const seen = new Set();
+    const publish = (notice, display) => {
+        if (!notice || typeof notice.id !== 'string' || typeof notice.message !== 'string' || seen.has(notice.id)) return;
+        seen.add(notice.id);
+        if (display) {
+            let region = document.querySelector('.automatic-breaks-live');
+            if (!region) {
+                region = document.createElement('div');
+                region.className = 'automatic-breaks-live';
+                region.setAttribute('aria-live', 'polite');
+                document.body.append(region);
+            }
+            const card = document.createElement('div');
+            card.className = 'alert alert-info alert-dismissible automatic-breaks-notice';
+            const content = document.createElement('div');
+            const heading = document.createElement('h4');
+            heading.className = 'alert-heading';
+            heading.textContent = notice.title + ' · #' + notice.timesheetId;
+            const message = document.createElement('div');
+            message.className = 'alert-description';
+            message.textContent = notice.message;
+            const close = document.createElement('button');
+            close.type = 'button';
+            close.className = 'btn-close';
+            close.setAttribute('aria-label', notice.closeLabel || notice.title);
+            close.addEventListener('click', () => card.remove());
+            content.append(heading, message);
+            card.append(content, close);
+            region.append(card);
+        }
+        document.dispatchEvent(new CustomEvent('kimai.automaticBreakApplied', {detail: notice}));
+    };
+    const read = (root, display) => {
+        root.querySelectorAll('script[data-automatic-breaks-notices]').forEach(element => {
+            try { JSON.parse(element.textContent).forEach(notice => publish(notice, display)); } catch (_) { /* Ignore unrelated malformed responses. */ }
+        });
+    };
+    const receiptUrl = {{ path('automatic_breaks_notification', {id: 0})|json_encode(15)|raw }};
+    const originalFetch = window.fetch.bind(window);
+    window.fetch = async (...args) => {
+        const response = await originalFetch(...args);
+        if (response.ok && response.url.startsWith(window.location.origin + '/') && response.headers.has('X-Automatic-Breaks')) {
+            // Observe the response without changing it, retrying a booking, or delaying the caller.
+            (async () => {
+                if ((response.headers.get('Content-Type') || '').includes('text/html')) {
+                    read(new DOMParser().parseFromString(await response.clone().text(), 'text/html'), true);
+                } else {
+                    const ids = response.headers.get('X-Automatic-Breaks').split(',').filter(id => /^\d+$/.test(id));
+                    for (const id of ids) {
+                        const locale = document.documentElement.lang.replaceAll('-', '_') || 'en';
+                        const receipt = await originalFetch(receiptUrl.replace(/0$/, id) + '?locale=' + encodeURIComponent(locale));
+                        if (receipt.ok && receipt.status !== 204) publish(await receipt.json(), true);
+                    }
+                }
+            })().catch(() => { /* The booking succeeded; integrations can retrieve its durable receipt later. */ });
+        }
+        return response;
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => read(document, false), {once: true});
+    else read(document, false);
+})();
+</script>

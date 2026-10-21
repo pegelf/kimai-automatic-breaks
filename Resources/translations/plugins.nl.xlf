@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="nl" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Automatische pauzes</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Aantal regels (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Past inhoudingen toe bij de eerste voltooiing. Lopende timers blijven ongemoeid. Latere correcties blijven mogelijk.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Kies 1 tot 10 regels. Opslaan met een lager aantal verwijdert de laatste regels.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Geregistreerde minuten per blok vóór inhoudingen. De drempel moet worden overschreden en hoger zijn dan de vorige. Onderbrekingen tellen niet mee.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Totale pauze, geen extra inhouding. Bestaande pauzes tellen mee. De hoogste regel vervangt eerdere regels. Totalen mogen niet afnemen.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maximale nettominuten over alle blokken van de werkdag. Overschot wordt van de nieuwste voltooide registratie afgetrokken. 0 schakelt de limiet uit.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minimale uitklokpauze die de blokregels opnieuw laat beginnen. 0 schakelt dit binnen een werkdag uit. Het dagmaximum blijft onafhankelijk.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Onderbreking die een nieuwe werkdag en beide tellers opnieuw start. Standaard: 660 minuten. Middernacht alleen stelt niets opnieuw in.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Stelt momenteel de gehele persoon vrij bij lidmaatschap van een geselecteerd team, ook bij meerdere teams. Registraties bevatten geen werkteam.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Je hebt meer dan %threshold% aaneengesloten werk ingevoerd. Daarom is automatisch %added% pauze aan je registratie toegevoegd.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Je hebt de maximale werktijd van %threshold% per werkdag overschreden. Daarom is automatisch %added% pauze aan je registratie toegevoegd.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> en </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# uur}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuut} other {# minuten}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# seconde} other {# seconden}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

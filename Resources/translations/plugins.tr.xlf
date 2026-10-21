@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="tr" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Otomatik molalar</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Kural sayısı (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Kesintileri kaydın ilk tamamlanmasında uygular. Çalışan sayaçlar değişmez. Sonradan düzeltme yapılabilir.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>1–10 kural seçin. Daha az sayıyla kaydetmek son kuralları kaldırır.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Kesintilerden önce blokta kaydedilen dakikalar. Eşik aşılmalı ve önceki eşikten yüksek olmalıdır. Kesintiler çalışma süresi sayılmaz.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Ek kesinti değil, toplam mola. Mevcut molalar hesaba katılır. En yüksek kural öncekilerin yerini alır. Toplamlar azalamaz.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>İş gününün tüm bloklarındaki en fazla net dakika. Fazla süre son tamamlanan kayıttan düşülür. 0 sınırı kapatır.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Blok kurallarını yeniden başlatan en kısa çıkış arası. 0 iş günü içindeki yeniden başlatmayı kapatır. Günlük üst sınır bağımsızdır.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Yeni iş günü başlatıp iki sayacı da sıfırlayan ara. Varsayılan: 660 dakika. Gece yarısı tek başına sıfırlamaz.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Şu anda kişi seçilen herhangi bir ekibe üyeyse, birden fazla üyelikte de tüm çalışmaları muaf tutulur. Kayıtta çalışılan ekip saklanmaz.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">%threshold% süresinden fazla kesintisiz çalışma kaydettiniz. Bu nedenle kaydınıza otomatik olarak %added% mola eklendi.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">İş günü başına %threshold% olan azami çalışma süresini aştınız. Bu nedenle kaydınıza otomatik olarak %added% mola eklendi.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> ve </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# saat}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# dakika}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# saniye}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

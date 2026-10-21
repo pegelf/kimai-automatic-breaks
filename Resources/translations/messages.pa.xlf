@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pa" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>ਆਟੋਮੈਟਿਕ ਵਿਰਾਮ</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>ਨਿਯਮ</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>ਇਸ ਤੋਂ ਵੱਧ (ਮਿੰਟ)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>ਕੁੱਲ ਵਿਰਾਮ (ਮਿੰਟ)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>ਵੱਧ ਤੋਂ ਵੱਧ ਕੰਮ ਦਾ ਸਮਾਂ (ਮਿੰਟ; 0 = ਬੰਦ)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>ਰੁਕਾਵਟ ਤੋਂ ਬਾਅਦ ਨਵਾਂ ਕੰਮ ਬਲਾਕ (ਮਿੰਟ)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>ਰੁਕਾਵਟ ਤੋਂ ਬਾਅਦ ਨਵਾਂ ਕੰਮ ਦਾ ਦਿਨ (ਮਿੰਟ)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>ਛੋਟ ਪ੍ਰਾਪਤ ਟੀਮਾਂ</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>ਮੁਕੰਮਲ ਇੰਦਰਾਜ਼ ਸੋਧੇ ਜਾ ਸਕਦੇ ਹਨ। ਹਟਾਈਆਂ ਕਟੌਤੀਆਂ ਮੁੜ ਲਾਗੂ ਨਹੀਂ ਹੁੰਦੀਆਂ।</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>ਗਿਣੀਆਂ ਕਟੌਤੀਆਂ ਇਹ ਸਾਬਤ ਨਹੀਂ ਕਰਦੀਆਂ ਕਿ ਵਿਰਾਮ ਲਿਆ ਗਿਆ ਸੀ।</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>ਸ਼ੁਰੂਆਤੀ ਆਟੋਮੈਟਿਕ ਕਟੌਤੀ (ਮਿੰਟ)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਇੰਦਰਾਜ਼ ਦੀ ਹੱਥੀਂ ਜਾਂਚ ਕਰੋ।</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>ਹੱਦਾਂ ਦਾ ਕ੍ਰਮ, ਕੁੱਲ ਵਿਰਾਮ ਅਤੇ ਰੁਕਾਵਟਾਂ ਦੀ ਮਿਆਦ ਜਾਂਚੋ।</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>ਨਿਯਮਾਂ ਦੀ ਗਿਣਤੀ (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>ਦਾਖਲਾ ਪਹਿਲੀ ਵਾਰ ਪੂਰਾ ਹੋਣ ਉੱਤੇ ਕਟੌਤੀ ਲਾਗੂ ਕਰਦਾ ਹੈ। ਚੱਲਦੇ ਟਾਈਮਰ ਨਹੀਂ ਬਦਲਦੇ। ਬਾਅਦ ਵਿੱਚ ਸੁਧਾਰ ਕੀਤੇ ਜਾ ਸਕਦੇ ਹਨ।</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>1 ਤੋਂ 10 ਨਿਯਮ ਚੁਣੋ। ਘੱਟ ਗਿਣਤੀ ਸੰਭਾਲਣ ਨਾਲ ਆਖ਼ਰੀ ਨਿਯਮ ਹਟ ਜਾਂਦੇ ਹਨ।</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>ਕਟੌਤੀ ਤੋਂ ਪਹਿਲਾਂ ਬਲਾਕ ਵਿੱਚ ਦਰਜ ਮਿੰਟ। ਹੱਦ ਪਾਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ ਅਤੇ ਪਿਛਲੀ ਹੱਦ ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਬਾਹਰ ਦਰਜ ਸਮਾਂ ਕੰਮ ਨਹੀਂ ਹੈ।</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>ਕੁੱਲ ਵਿਰਾਮ, ਵਾਧੂ ਕਟੌਤੀ ਨਹੀਂ। ਮੌਜੂਦਾ ਵਿਰਾਮ ਗਿਣੇ ਜਾਂਦੇ ਹਨ। ਸਭ ਤੋਂ ਉੱਚਾ ਨਿਯਮ ਪਿਛਲਿਆਂ ਦੀ ਥਾਂ ਲੈਂਦਾ ਹੈ। ਕੁੱਲ ਘਟ ਨਹੀਂ ਸਕਦੇ।</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>ਕੰਮਕਾਜੀ ਦਿਨ ਦੇ ਸਾਰੇ ਬਲਾਕਾਂ ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ ਸ਼ੁੱਧ ਮਿੰਟ। ਵਾਧਾ ਸਭ ਤੋਂ ਨਵੇਂ ਪੂਰੇ ਦਾਖਲੇ ਤੋਂ ਕੱਟਿਆ ਜਾਂਦਾ ਹੈ। 0 ਹੱਦ ਬੰਦ ਕਰਦਾ ਹੈ।</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>ਬਲਾਕ ਦੇ ਨਿਯਮ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਘੱਟੋ-ਘੱਟ ਬਾਹਰ ਦਰਜ ਵਕਫ਼ਾ। 0 ਕੰਮਕਾਜੀ ਦਿਨ ਅੰਦਰ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨਾ ਬੰਦ ਕਰਦਾ ਹੈ। ਰੋਜ਼ਾਨਾ ਹੱਦ ਵੱਖਰੀ ਹੈ।</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>ਨਵਾਂ ਕੰਮਕਾਜੀ ਦਿਨ ਸ਼ੁਰੂ ਕਰਕੇ ਦੋਵੇਂ ਗਿਣਤੀਆਂ ਮੁੜ ਸੈੱਟ ਕਰਨ ਵਾਲਾ ਵਕਫ਼ਾ। ਮੂਲ: 660 ਮਿੰਟ। ਸਿਰਫ਼ ਅੱਧੀ ਰਾਤ ਨਾਲ ਮੁੜ ਸੈੱਟ ਨਹੀਂ ਹੁੰਦਾ।</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>ਇਸ ਵੇਲੇ ਕਿਸੇ ਵੀ ਚੁਣੀ ਟੀਮ ਦਾ ਮੈਂਬਰ ਹੋਣ ਉੱਤੇ ਪੂਰੇ ਵਿਅਕਤੀ ਨੂੰ ਛੋਟ ਮਿਲਦੀ ਹੈ, ਕਈ ਟੀਮਾਂ ਵਿੱਚ ਵੀ। ਦਾਖਲੇ ਵਿੱਚ ਕੰਮ ਵਾਲੀ ਟੀਮ ਨਹੀਂ ਹੁੰਦੀ।</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">ਤੁਸੀਂ %threshold% ਤੋਂ ਵੱਧ ਲਗਾਤਾਰ ਕੰਮ ਦਰਜ ਕੀਤਾ ਹੈ। ਇਸ ਲਈ ਤੁਹਾਡੀ ਐਂਟਰੀ ਵਿੱਚ ਆਪਣੇ ਆਪ %added% ਦਾ ਵਿਰਾਮ ਜੋੜਿਆ ਗਿਆ ਹੈ।</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">ਤੁਸੀਂ ਪ੍ਰਤੀ ਕੰਮਕਾਜੀ ਦਿਨ %threshold% ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਕੰਮ ਦੀ ਮਿਆਦ ਪਾਰ ਕਰ ਲਈ ਹੈ। ਇਸ ਲਈ ਤੁਹਾਡੀ ਐਂਟਰੀ ਵਿੱਚ ਆਪਣੇ ਆਪ %added% ਦਾ ਵਿਰਾਮ ਜੋੜਿਆ ਗਿਆ ਹੈ।</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> ਅਤੇ </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# ਘੰਟਾ} other {# ਘੰਟੇ}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# ਮਿੰਟ}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# ਸਕਿੰਟ}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

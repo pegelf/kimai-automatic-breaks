@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="mk" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Проверете го редоследот на праговите, вкупните паузи и времетраењето на прекините.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Број на правила (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Применува одбитоци при првото завршување на записот. Активните тајмери не се менуваат. Подоцнежни исправки се можни.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Изберете 1–10 правила. Зачувувањето помал број ги отстранува последните правила.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Запишани минути во блокот пред одбитоци. Прагот мора да биде надминат и повисок од претходниот. Прекините не се работа.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Вкупна пауза, не дополнителен одбиток. Постојните паузи се земаат предвид. Највисокото правило ги заменува претходните. Збировите не смеат да опаѓаат.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Максимални нето минути во сите блокови на денот. Вишокот се одбива од најновиот завршен запис. 0 го исклучува ограничувањето.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Минимален прекин по одјавување што ги рестартира правилата на блокот. 0 го исклучува рестартот во денот. Дневниот максимум е независен.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Прекин што започнува нов работен ден и ги нулира двата бројачи. Стандардно: 660 минути. Самата полноќ не ги нулира.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Моментално го иззема целото лице ако припаѓа на кој било избран тим, и при повеќе членства. Записите немаат работен тим.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Внесовте повеќе од %threshold% непрекината работа. Затоа во вашиот запис автоматски е додадена пауза од %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Го надминавте максималното работно време од %threshold% по работен ден. Затоа во вашиот запис автоматски е додадена пауза од %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> и </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# час} other {# часа}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# минута} other {# минути}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# секунда} other {# секунди}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

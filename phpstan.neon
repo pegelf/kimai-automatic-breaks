@@ -1,0 +1,16 @@
+parameters:
+    level: 9
+    paths:
+        - Api
+        - Event
+        - Notification
+        - Calculation
+        - Configuration
+        - Controller
+        - DependencyInjection
+        - EventSubscriber
+        - Form
+        - Repository
+    tmpDir: phpstan-cache
+    bootstrapFiles:
+        - Tests/bootstrap.php

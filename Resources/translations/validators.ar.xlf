@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ar" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>تحقق من ترتيب الحدود وإجمالي الاستراحات ومدد الانقطاع.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>عدد القواعد (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>يطبق الخصم عند إنهاء السجل لأول مرة. لا يغيّر المؤقتات النشطة. تظل التصحيحات اللاحقة ممكنة.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>اختر من قاعدة واحدة إلى 10 قواعد. حفظ عدد أقل يحذف القواعد الأخيرة.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>الدقائق المسجلة في فترة العمل قبل الخصم. يجب تجاوز الحد وأن يكون أعلى من السابق. فترات تسجيل الخروج ليست وقت عمل.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>إجمالي الاستراحة وليس خصماً إضافياً. تُحتسب الاستراحات الموجودة. تحل القاعدة الأعلى محل السابقة. لا يجوز أن تتناقص المجاميع.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>الحد الأقصى للدقائق الصافية عبر جميع فترات يوم العمل. يُخصم التجاوز من آخر سجل مكتمل. 0 يعطّل الحد.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>أقل فترة تسجيل خروج تعيد بدء قواعد فترة العمل. 0 يعطّل إعادة البدء داخل يوم العمل. يبقى الحد اليومي مستقلاً.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>فترة تسجيل خروج تبدأ يوم عمل جديداً وتعيد ضبط العدادين. الافتراضي: 660 دقيقة. منتصف الليل وحده لا يعيد الضبط.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>يعفي حالياً الشخص بالكامل إذا كان عضواً في أي فريق محدد، حتى مع عضويات متعددة. لا يسجل كل إدخال فريق العمل الفعلي.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">سجّلت أكثر من %threshold% من العمل المتواصل. لذلك أُضيفت استراحة مدتها %added% تلقائيًا إلى إدخالك.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">تجاوزت الحد الأقصى لوقت العمل البالغ %threshold% لكل يوم عمل. لذلك أُضيفت استراحة مدتها %added% تلقائيًا إلى إدخالك.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> و</target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# ساعة}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# دقيقة}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# ثانية}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

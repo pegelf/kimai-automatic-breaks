@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="nb-NO" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Automatiske pauser</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Regel</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Mer enn (minutter)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Samlet pause (minutter)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Maksimal arbeidstid (minutter; 0 = deaktivert)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Ny arbeidsøkt etter avbrudd (minutter)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Ny arbeidsdag etter avbrudd (minutter)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Unntatte team</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Avsluttede registreringer kan redigeres. Fjernede fradrag legges ikke til igjen.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Beregnede fradrag beviser ikke at en pause er tatt.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Opprinnelig automatisk fradrag (minutter)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Kontroller denne registreringen manuelt.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Kontroller rekkefølgen på grensene, samlede pauser og avbruddenes varighet.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Antall regler (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Bruker trekk ved første avslutning. Pågående tidtaking endres ikke. Senere rettelser er mulige.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Velg 1–10 regler. Lagring av et lavere antall fjerner de siste reglene.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Registrerte minutter per blokk før trekk. Grensen må overskrides og være høyere enn den forrige. Avbrudd teller ikke.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Samlet pause, ikke ekstra trekk. Eksisterende pauser regnes med. Den høyeste regelen erstatter tidligere regler. Totalene kan ikke synke.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maksimale nettominutter på tvers av dagens blokker. Overskuddet trekkes fra sist avsluttede registrering. 0 deaktiverer grensen.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minste utstemplet avbrudd som starter blokkreglene på nytt. 0 deaktiverer omstart innen arbeidsdagen. Dagsgrensen er uavhengig.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Avbrudd som starter en ny arbeidsdag og nullstiller begge tellere. Standard: 660 minutter. Midnatt alene nullstiller ingenting.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Unntar foreløpig hele personen ved medlemskap i et valgt team, også med flere team. Registreringer inneholder ikke et arbeidsteam.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Du har registrert mer enn %threshold% sammenhengende arbeid. Derfor ble %added% pause lagt til automatisk i registreringen din.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Du har overskredet maksimal arbeidstid på %threshold% per arbeidsdag. Derfor ble %added% pause lagt til automatisk i registreringen din.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> og </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# time} other {# timer}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minutt} other {# minutter}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekund} other {# sekunder}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,52 @@
+(() => {
+    const initialize = () => {
+        const form = document.querySelector('form[name="settings"]');
+        if (!form || form.dataset.helpInitialized) return;
+        form.dataset.helpInitialized = 'true';
+        let active = null;
+        const hide = () => {
+            if (!active) return;
+            document.getElementById(active.getAttribute('aria-describedby'))?.classList.remove('is-visible');
+            active = null;
+        };
+        const show = button => {
+            hide();
+            active = button;
+            const tooltip = document.getElementById(button.getAttribute('aria-describedby'));
+            tooltip.classList.add('is-visible');
+            const anchor = button.getBoundingClientRect();
+            const bounds = tooltip.getBoundingClientRect();
+            tooltip.style.left = `${Math.max(8, Math.min(anchor.left, window.innerWidth - bounds.width - 8))}px`;
+            tooltip.style.top = `${Math.max(8, anchor.bottom + bounds.height + 8 <= window.innerHeight ? anchor.bottom : anchor.top - bounds.height)}px`;
+        };
+        const buttonFor = event => event.target.closest('.automatic-breaks-help');
+        form.addEventListener('pointerover', event => {
+            const button = buttonFor(event);
+            if (button) show(button);
+        });
+        form.addEventListener('pointerout', event => {
+            if (!active || active === document.activeElement) return;
+            const tooltip = document.getElementById(active.getAttribute('aria-describedby'));
+            if (event.relatedTarget instanceof Node && (active.contains(event.relatedTarget) || tooltip?.contains(event.relatedTarget))) return;
+            hide();
+        });
+        form.addEventListener('focusin', event => {
+            const button = buttonFor(event);
+            if (button) show(button);
+        });
+        form.addEventListener('focusout', hide);
+        form.addEventListener('click', event => {
+            const button = buttonFor(event);
+            if (button) show(button);
+            else hide();
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape') hide();
+        });
+        const reposition = () => { if (active) show(active); };
+        window.addEventListener('resize', reposition);
+        window.addEventListener('scroll', reposition, true);
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initialize, {once: true});
+    else initialize();
+})();

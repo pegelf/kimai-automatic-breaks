@@ -1,0 +1,72 @@
+(() => {
+    const initialize = () => {
+        const container = document.getElementById('automatic-breaks-rules');
+        if (!container || container.dataset.initialized) return;
+        container.dataset.initialized = 'true';
+        const prototype = document.getElementById('automatic-breaks-rule-template');
+        const add = document.getElementById('automatic-breaks-add');
+        const status = document.getElementById('automatic-breaks-rule-status');
+        const rows = () => Array.from(container.children);
+        let nextIndex = rows().reduce((index, row) => {
+            const match = row.querySelector('[data-rule-threshold]').name.match(/\[rules\]\[(\d+)\]/);
+            return Math.max(index, match ? Number(match[1]) + 1 : 0);
+        }, 0);
+        const update = () => {
+            const current = rows();
+            add.disabled = current.length >= Number(container.dataset.maxRules);
+            let previousThreshold = 0;
+            let previousBreak = 0;
+            current.forEach((row, index) => {
+                row.querySelector('[data-rule-number]').textContent = String(index + 1);
+                row.querySelector('[data-remove-rule]').disabled = current.length === 1;
+                const threshold = row.querySelector('[data-rule-threshold]');
+                const total = row.querySelector('[data-rule-break]');
+                threshold.min = String(previousThreshold + 1);
+                total.min = String(previousBreak);
+                total.max = threshold.value === '' ? '10080' : threshold.value;
+                previousThreshold = Number(threshold.value);
+                previousBreak = Number(total.value);
+            });
+        };
+        const sort = () => {
+            const current = rows();
+            const ordered = [...current].sort((a, b) => {
+                const value = row => row.querySelector('[data-rule-threshold]').value;
+                return (value(a) === '' ? Infinity : Number(value(a))) - (value(b) === '' ? Infinity : Number(value(b)));
+            });
+            if (ordered.some((row, index) => row !== current[index])) {
+                const focused = document.activeElement;
+                ordered.forEach(row => container.append(row));
+                if (focused && container.contains(focused)) focused.focus();
+                status.textContent = status.dataset.message;
+            }
+            update();
+        };
+        add.addEventListener('click', () => {
+            if (rows().length >= Number(container.dataset.maxRules)) return;
+            const template = document.createElement('template');
+            template.innerHTML = prototype.innerHTML.replaceAll('__name__', String(nextIndex++));
+            const row = template.content.firstElementChild;
+            container.append(row);
+            update();
+            row.querySelector('[data-rule-threshold]').focus();
+        });
+        container.addEventListener('click', event => {
+            const button = event.target.closest('[data-remove-rule]');
+            if (!button || rows().length <= 1) return;
+            const row = button.closest('[data-break-rule]');
+            const next = row.nextElementSibling || row.previousElementSibling;
+            row.remove();
+            update();
+            next.querySelector('[data-rule-threshold]').focus();
+        });
+        // Sort after an edit is committed, never while typing a multi-digit threshold.
+        container.addEventListener('change', sort);
+        container.addEventListener('input', event => {
+            if (event.target.matches('[data-rule-threshold]')) event.target.min = '1';
+        });
+        sort();
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initialize, {once: true});
+    else initialize();
+})();

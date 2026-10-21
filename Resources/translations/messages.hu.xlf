@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="hu" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Automatikus szünetek</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Szabály</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Több mint (perc)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Összes szünet (perc)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Maximális munkaidő (perc; 0 = kikapcsolva)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Új munkaszakasz megszakítás után (perc)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Új munkanap megszakítás után (perc)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Kizárt csapatok</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>A lezárt bejegyzések szerkeszthetők. A törölt levonások nem kerülnek újra alkalmazásra.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>A számított levonások nem bizonyítják, hogy szünetet tartottak.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Eredeti automatikus levonás (perc)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Ellenőrizze kézzel ezt a bejegyzést.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Ellenőrizze a küszöbök sorrendjét, az összes szünetet és a megszakítások hosszát.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Szabályok száma (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Az első lezáráskor alkalmaz levonásokat. A futó időmérők nem változnak. Későbbi javítások lehetségesek.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Válasszon 1–10 szabályt. Kisebb szám mentése törli az utolsó szabályokat.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Rögzített percek a blokkban levonás előtt. A küszöböt túl kell lépni, és magasabbnak kell lennie az előzőnél. A megszakítás nem munka.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Teljes szünet, nem további levonás. A meglévő szünetek beszámítanak. A legmagasabb szabály felváltja az előzőket. Az összegek nem csökkenhetnek.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>A munkanap összes blokkjának legnagyobb nettó percszáma. A többletet a legutóbb lezárt bejegyzésből vonja le. 0 kikapcsolja a korlátot.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>A blokkszabályokat újraindító legkisebb kijelentkezési szünet. 0 kikapcsolja a munkanapon belüli újraindítást. A napi maximum független.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Új munkanapot kezdő és mindkét számlálót nullázó szünet. Alapérték: 660 perc. Az éjfél önmagában nem nulláz.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Jelenleg az egész személyt mentesíti bármely kiválasztott csapat tagsága esetén, több tagságnál is. A bejegyzés nem tartalmaz munkacsapatot.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Több mint %threshold% megszakítás nélküli munkát rögzítettél. Ezért a bejegyzésedhez automatikusan %added% szünet lett hozzáadva.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Túllépted a munkanaponkénti %threshold% maximális munkaidőt. Ezért a bejegyzésedhez automatikusan %added% szünet lett hozzáadva.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> és </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# óra}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# perc}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# másodperc}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

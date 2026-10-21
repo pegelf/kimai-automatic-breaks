@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="fo" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Kanna raðfylgjuna á mørkum, samlaðar steðgir og longdina á steðgunum.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Tal av reglum (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Ger frádrátt við fyrstu avslutning. Virknar tímateljingar verða ikki broyttar. Seinni rættingar eru møguligar.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Vel 1–10 reglur. At goyma eitt lægri tal strikar tær seinastu reglurnar.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Skrásettir minuttir í blokkinum áðrenn frádrátt. Markið skal verða farið upp um og vera hægri enn tað fyrra. Steðgir telja ikki sum arbeiði.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Samlaður steðgur, ikki eyka frádráttur. Verandi steðgir verða taldir við. Hægsta reglan kemur í staðin fyri tær fyrru. Samløgan má ikki minka.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Mesta tal av nettominuttum í øllum blokkum á arbeiðsdegnum. Avlop verður drigið frá seinastu lidnu skráseting. 0 sløkkir markið.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minsti útskrásetti steðgur, sum byrjar blokkreglurnar av nýggjum. 0 sløkkir endurbyrjan innan arbeiðsdagin. Dagsmarkið er óheft.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Steðgur, sum byrjar nýggjan arbeiðsdag og nullstillar báðar teljarar. Vanligt: 660 minuttir. Midnátt einsamøll nullstillar einki.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Frítekur nú alla persónin við limaskapi í einum valdum toymi, eisini við fleiri toymum. Skrásetingar hava einki arbeiðstoymi.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Tú hevur skrásett meira enn %threshold% av samanhangandi arbeiði. Tí varð %added% steðgur sjálvvirkandi lagdur afturat skrásetingini.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Tú hevur farið upp um mesta arbeiðstíðina á %threshold% fyri hvønn arbeiðsdag. Tí varð %added% steðgur sjálvvirkandi lagdur afturat skrásetingini.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> og </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# tími} other {# tímar}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuttur} other {# minuttir}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekund} other {# sekund}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

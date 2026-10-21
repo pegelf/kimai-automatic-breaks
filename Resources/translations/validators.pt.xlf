@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Verifique a ordem dos limites, as pausas totais e a duração das interrupções.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Número de regras (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Aplica deduções na primeira conclusão. Os temporizadores ativos não são alterados. As correções posteriores continuam disponíveis.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Escolha de 1 a 10 regras. Guardar um número menor remove as últimas regras.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Minutos registados por bloco antes das deduções. O limite deve ser ultrapassado e superior ao anterior. As interrupções não contam.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Pausa total, não adicional. As pausas existentes são consideradas. A regra mais alta substitui as anteriores. Os totais não podem diminuir.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Máximo de minutos líquidos entre todos os blocos do dia. O excesso é deduzido do último registo concluído. 0 desativa o limite.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Interrupção mínima que reinicia as regras do bloco. 0 desativa o reinício dentro do dia. O máximo diário permanece independente.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Interrupção que inicia um novo dia e reinicia ambos os contadores. Predefinição: 660 minutos. A meia-noite por si só não reinicia nada.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Atualmente isenta toda a pessoa se pertencer a qualquer equipa selecionada, mesmo com várias equipas. Os registos não incluem uma equipa de trabalho.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Registou mais de %threshold% de trabalho contínuo. Por isso, foram adicionados automaticamente %added% de pausa ao registo.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Ultrapassou o tempo máximo de trabalho de %threshold% por dia de trabalho. Por isso, foram adicionados automaticamente %added% de pausa ao registo.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> e </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# hora} other {# horas}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuto} other {# minutos}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# segundo} other {# segundos}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

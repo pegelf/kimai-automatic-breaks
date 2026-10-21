@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ta" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>தானியங்கி இடைவேளைகள்</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>விதிகளின் எண்ணிக்கை (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>பதிவை முதல் முறையாக முடிக்கும்போது கழிவுகளைப் பயன்படுத்தும். இயங்கும் நேரக்கணிப்புகள் மாறாது. பின்னர் திருத்தலாம்.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>1 முதல் 10 விதிகளைத் தேர்ந்தெடுக்கவும். குறைந்த எண்ணிக்கையைச் சேமித்தால் கடைசி விதிகள் நீக்கப்படும்.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>கழிவுகளுக்கு முன் தொகுதியில் பதிவான நிமிடங்கள். வரம்பை மீற வேண்டும்; அது முந்தையதை விட அதிகமாக இருக்க வேண்டும். வெளியேறிய இடைவெளி வேலை அல்ல.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>மொத்த ஓய்வு; கூடுதல் கழிவு அல்ல. ஏற்கெனவே உள்ள ஓய்வுகள் கணக்கிடப்படும். உயர்ந்த விதி முந்தையவற்றை மாற்றும். மொத்தம் குறையக் கூடாது.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>வேலைநாளின் அனைத்துத் தொகுதிகளிலும் அதிகபட்ச நிகர நிமிடங்கள். மிகுதி சமீபத்தில் முடிந்த பதிவிலிருந்து கழிக்கப்படும். 0 வரம்பை முடக்கும்.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>தொகுதி விதிகளை மீண்டும் தொடங்குவதற்கான குறைந்தபட்ச வெளியேறிய இடைவெளி. 0 வேலைநாளுக்குள் மீள்தொடக்கத்தை முடக்கும். தினசரி உச்சவரம்பு தனித்தது.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>புதிய வேலைநாளைத் தொடங்கி இரு எண்ணிகளையும் மீட்டமைக்கும் இடைவெளி. இயல்பு: 660 நிமிடங்கள். நள்ளிரவு மட்டும் மீட்டமைக்காது.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>தற்போது தேர்ந்தெடுத்த எந்தக் குழுவிலும் உறுப்பினராக இருந்தால், பல குழுக்களிலும் இருந்தாலும் நபரின் அனைத்து வேலைக்கும் விலக்கு. பதிவில் பணிக்குழு சேமிக்கப்படாது.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">நீங்கள் %threshold% நேரத்திற்கும் அதிகமான தொடர்ச்சியான வேலையைப் பதிவு செய்துள்ளீர்கள். எனவே உங்கள் பதிவில் %added% இடைவேளை தானாகச் சேர்க்கப்பட்டது.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">ஒரு வேலை நாளுக்கான அதிகபட்ச வேலை நேரமான %threshold% நேரத்தை மீறிவிட்டீர்கள். எனவே உங்கள் பதிவில் %added% இடைவேளை தானாகச் சேர்க்கப்பட்டது.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> மற்றும் </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# மணிநேரம்}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# நிமிடம்} other {# நிமிடங்கள்}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# விநாடி} other {# விநாடிகள்}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Pauses automatiques</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Règle</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Plus de (minutes)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Pause totale (minutes)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Temps de travail maximal (minutes ; 0 = désactivé)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Nouveau bloc de travail après interruption (minutes)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Nouvelle journée de travail après interruption (minutes)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Équipes exclues</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Les saisies terminées restent modifiables. Les déductions supprimées ne sont pas réappliquées.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Les déductions calculées ne prouvent pas qu’une pause a été prise.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Déduction automatique initiale (minutes)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Veuillez vérifier cette saisie manuellement.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Vérifiez l’ordre des seuils, les pauses totales et les durées des interruptions.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Nombre de règles (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Applique les déductions à la première clôture. Aucun retrait sur un chronomètre actif. Les corrections restent possibles.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Choisissez 1 à 10 règles. Enregistrer un nombre inférieur supprime les dernières règles.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Minutes enregistrées par bloc avant déduction. Le seuil doit être dépassé et supérieur au précédent. Les interruptions ne comptent pas.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Pause totale, et non supplémentaire. Les pauses existantes sont déduites du besoin. La règle la plus élevée remplace les précédentes. Totaux non décroissants.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Minutes nettes maximales pour tous les blocs de la journée. Excédent retiré de la dernière saisie terminée. 0 désactive la limite.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Interruption minimale pour recommencer les règles de bloc. 0 désactive ce redémarrage dans la journée. La limite quotidienne reste indépendante.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Interruption commençant une nouvelle journée et réinitialisant les deux compteurs. Défaut : 660 minutes. Minuit seul ne suffit pas.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Exempte actuellement toute personne appartenant à au moins une équipe sélectionnée, même avec plusieurs équipes. Aucune équipe de travail n’est enregistrée par saisie.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Vous avez saisi plus de %threshold% de travail continu. Une pause de %added% a donc été ajoutée automatiquement à votre saisie.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Vous avez dépassé la durée maximale de travail de %threshold% par journée de travail. Une pause de %added% a donc été ajoutée automatiquement à votre saisie.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> et </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# heure} other {# heures}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minute} other {# minutes}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# seconde} other {# secondes}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

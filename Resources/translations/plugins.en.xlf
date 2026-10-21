@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Automatic Breaks</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Number of rules (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Applies automatic deductions when an entry is first completed. Open timers receive no deduction. Existing entries and manual corrections remain editable.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Choose 1–10 rules. Saving a lower count removes the last rules. Increasing it again before saving restores temporarily hidden values.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Recorded working minutes in the block before deductions. The rule applies only above this threshold. Each threshold must exceed the preceding one; clock-out gaps are not working time.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Total break required by this rule, not an additional amount. Existing breaks are credited. The highest reached rule replaces lower rules. Totals must not decrease.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maximum net working minutes across all blocks of a workday. Excess is deducted from the newest completion, limited to its duration. 0 disables this limit; a block reset does not reset it.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minimum clock-out gap that starts a new block for the break rules. For example, 5 requires at least five minutes. 0 disables block resets within a workday. Gaps are not working time; the daily maximum is independent.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Minimum clock-out gap that starts a new workday and resets both counters. Default: 660 minutes (11 hours). Midnight alone does not reset them. Must be positive and at least as long as the block-reset gap.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Currently exempts the entire person if they belong to any selected team, even with multiple memberships. Kimai does not record a working team on each timesheet; this is not a per-project exception.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">You entered more than %threshold% of work in one continuous block. %added% of break time was therefore added automatically to your entry.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">You exceeded the maximum working time of %threshold% per workday. %added% of break time was therefore added automatically to your entry.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> and </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# hour} other {# hours}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minute} other {# minutes}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# second} other {# seconds}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

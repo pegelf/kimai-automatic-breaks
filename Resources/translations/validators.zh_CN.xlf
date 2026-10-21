@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>请检查阈值顺序、休息总时长和中断时间。</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>规则数量（1–10）</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>在记录首次结束时自动扣除。运行中的计时器不受影响，之后仍可修改。</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>选择1至10条规则。保存较少的数量会删除末尾规则。</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>扣除前工作段内记录的分钟数。必须超过阈值才生效，且阈值须高于上一条。签退期间不算工作时间。</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>所需休息总时长，而非额外扣除。已有休息会计入，达到的最高规则替代此前规则。总时长不得递减。</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>工作日所有工作段的净工作分钟数上限。超出部分从最新结束的记录扣除。0禁用此上限。</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>重新开始工作段规则所需的最短签退间隔。0禁用工作日内的工作段重置。每日上限独立计算。</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>开始新工作日并重置两个计数器的签退间隔。默认660分钟。仅跨过午夜不会重置。</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>目前只要属于任一选定团队，就豁免该人的全部工作，包括多团队成员。每条工时记录不保存实际工作团队。</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">你记录了超过%threshold%的连续工作，因此已自动为此记录添加%added%的休息时间。</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">你已超过每个工作日%threshold%的最长工作时间，因此已自动为此记录添加%added%的休息时间。</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve">和</target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# 小时}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# 分钟}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# 秒}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

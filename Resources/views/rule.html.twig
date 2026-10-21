@@ -1,0 +1,14 @@
+<fieldset class="border rounded p-3 mb-3" data-break-rule>
+    <legend class="float-none w-auto px-2 fs-4">{{ 'automatic_breaks.rule'|trans }} <span data-rule-number>{{ number }}</span></legend>
+    {{ form_errors(rule) }}
+    <div class="row align-items-start">
+        <div class="col-md-4">{{ form_row(rule.threshold) }}</div>
+        <div class="col-md-4">{{ form_row(rule.break) }}</div>
+        <div class="col-md-4">{{ form_row(rule.mode) }}</div>
+    </div>
+    <div class="text-end">
+        <button type="button" class="btn btn-outline-danger btn-sm" data-remove-rule>
+            <span class="me-2" aria-hidden="true">−</span>{{ 'automatic_breaks.remove_rule'|trans }}
+        </button>
+    </div>
+</fieldset>

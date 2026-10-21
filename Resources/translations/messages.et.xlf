@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="et" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Automaatsed pausid</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Reegel</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Rohkem kui (minutit)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Paus kokku (minutit)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Maksimaalne tööaeg (minutit; 0 = keelatud)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Uus tööplokk pärast katkestust (minutit)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Uus tööpäev pärast katkestust (minutit)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Välistatud meeskonnad</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Lõpetatud kirjeid saab muuta. Eemaldatud mahaarvamisi ei rakendata uuesti.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Arvutatud mahaarvamised ei tõenda, et paus tegelikult tehti.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Algne automaatne mahaarvamine (minutit)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Kontrollige seda kirjet käsitsi.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Kontrollige lävendite järjekorda, pauside kogukestust ja katkestuste pikkust.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Reeglite arv (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Rakendab mahaarvamised kirje esimesel lõpetamisel. Töötavaid taimereid ei muudeta. Hilisemad parandused on võimalikud.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Vali 1–10 reeglit. Väiksema arvu salvestamine eemaldab viimased reeglid.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Ploki salvestatud minutid enne mahaarvamisi. Lävi tuleb ületada ja see peab olema eelmisest suurem. Katkestused ei ole tööaeg.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Pausi kogupikkus, mitte lisamahaarvamine. Olemasolevad pausid arvestatakse. Kõrgeim reegel asendab eelmised. Kogused ei tohi väheneda.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Tööpäeva kõigi plokkide suurim netominutite arv. Ülejääk lahutatakse viimati lõpetatud kirjest. 0 lülitab piiri välja.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Vähim väljalogimise katkestus, mis alustab ploki reegleid uuesti. 0 keelab taaskäivituse tööpäeva sees. Päevapiir on sõltumatu.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Katkestus, mis alustab uut tööpäeva ja nullib mõlemad loendurid. Vaikimisi 660 minutit. Kesköö üksi ei nulli loendureid.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Praegu vabastab kogu isiku, kui ta kuulub mõnda valitud meeskonda, ka mitme liikmesuse korral. Kirjel puudub töömeeskond.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Sisestasid rohkem kui %threshold% järjestikust tööd. Seetõttu lisati sinu kirjele automaatselt %added% pausi.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Ületasid maksimaalse tööaja %threshold% tööpäeva kohta. Seetõttu lisati sinu kirjele automaatselt %added% pausi.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> ja </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# tund} other {# tundi}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minut} other {# minutit}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekund} other {# sekundit}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

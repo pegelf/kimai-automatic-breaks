@@ -1,0 +1,27 @@
+{% extends 'form/vertical.html.twig' %}
+
+{% block form_label %}
+    {% set label_markup %}{{ parent() }}{% endset %}
+    {% if help is not empty and label_markup|trim is not empty %}
+        <div class="automatic-breaks-label">
+            {{ label_markup|raw }}
+            {{ block('automatic_breaks_help') }}
+        </div>
+    {% else %}
+        {{ label_markup|raw }}
+    {% endif %}
+{% endblock %}
+
+{% block checkbox_radio_label %}
+    {{ parent() }}
+    {% if widget is defined and help is not empty %}
+        {{ block('automatic_breaks_help') }}
+    {% endif %}
+{% endblock %}
+
+{% block automatic_breaks_help %}
+    <button type="button" class="form-help automatic-breaks-help" aria-label="{{ label|trans(label_translation_parameters, translation_domain) }}" aria-describedby="{{ id }}_help">?</button>
+    <span id="{{ id }}_help" role="tooltip" class="automatic-breaks-tooltip">{{ help|trans(help_translation_parameters, translation_domain) }}</span>
+{% endblock %}
+
+{% block form_help %}{% endblock %}

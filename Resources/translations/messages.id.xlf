@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="id" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Istirahat otomatis</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Aturan</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Lebih dari (menit)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Total istirahat (menit)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Waktu kerja maksimum (menit; 0 = nonaktif)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Blok kerja baru setelah jeda (menit)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Hari kerja baru setelah jeda (menit)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Tim yang dikecualikan</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Entri yang selesai tetap dapat diedit. Potongan yang dihapus tidak diterapkan kembali.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Potongan yang dihitung tidak membuktikan bahwa istirahat telah diambil.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Potongan otomatis awal (menit)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Periksa entri ini secara manual.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Periksa urutan ambang, total istirahat, dan durasi jeda.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Jumlah aturan (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Menerapkan potongan saat entri pertama kali diselesaikan. Penghitung aktif tidak berubah. Koreksi setelahnya tetap diperbolehkan.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Pilih 1–10 aturan. Menyimpan jumlah lebih kecil menghapus aturan terakhir.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Menit tercatat dalam blok sebelum potongan. Ambang harus dilampaui dan lebih tinggi dari sebelumnya. Jeda keluar tidak dihitung sebagai kerja.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Total istirahat, bukan potongan tambahan. Istirahat yang ada diperhitungkan. Aturan tertinggi menggantikan aturan sebelumnya. Total tidak boleh menurun.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maksimum menit bersih seluruh blok hari kerja. Kelebihan dipotong dari entri terakhir yang selesai. 0 menonaktifkan batas.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Jeda keluar minimum yang memulai ulang aturan blok. 0 menonaktifkan mulai ulang dalam hari kerja. Batas harian tetap terpisah.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Jeda yang memulai hari kerja baru dan mengatur ulang kedua penghitung. Bawaan: 660 menit. Tengah malam saja tidak mengatur ulang.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Saat ini mengecualikan seluruh orang jika menjadi anggota tim mana pun yang dipilih, termasuk keanggotaan ganda. Entri tidak menyimpan tim kerja.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Anda mencatat lebih dari %threshold% kerja terus-menerus. Karena itu, istirahat selama %added% ditambahkan secara otomatis ke catatan Anda.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Anda melebihi waktu kerja maksimum %threshold% per hari kerja. Karena itu, istirahat selama %added% ditambahkan secara otomatis ke catatan Anda.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> dan </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# jam}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# menit}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# detik}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

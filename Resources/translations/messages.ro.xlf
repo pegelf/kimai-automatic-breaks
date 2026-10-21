@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ro" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Pauze automate</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Regulă</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Mai mult de (minute)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Pauză totală (minute)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Timp maxim de lucru (minute; 0 = dezactivat)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Un nou interval de lucru după întrerupere (minute)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>O nouă zi de lucru după întrerupere (minute)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Echipe excluse</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Înregistrările încheiate rămân editabile. Deducerile eliminate nu sunt reaplicate.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Deducerile calculate nu dovedesc că a fost luată o pauză.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Deducere automată inițială (minute)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Verificați manual această înregistrare.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Verificați ordinea pragurilor, pauzele totale și durata întreruperilor.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Număr de reguli (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Aplică deduceri la prima finalizare a înregistrării. Cronometrele active nu se modifică. Corecțiile ulterioare sunt permise.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Alegeți 1–10 reguli. Salvarea unui număr mai mic elimină ultimele reguli.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Minute înregistrate în bloc înainte de deduceri. Pragul trebuie depășit și să fie mai mare decât cel anterior. Întreruperile nu sunt muncă.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Pauză totală, nu deducere suplimentară. Pauzele existente sunt luate în calcul. Regula cea mai înaltă le înlocuiește pe cele anterioare. Totalurile nu pot scădea.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maxim de minute nete în toate blocurile zilei. Excesul se deduce din ultima înregistrare finalizată. 0 dezactivează limita.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Întreruperea minimă după ieșire care repornește regulile blocului. 0 dezactivează repornirea în cadrul zilei. Maximul zilnic rămâne independent.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Întreruperea care începe o nouă zi de lucru și resetează ambele contoare. Implicit: 660 minute. Miezul nopții singur nu le resetează.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>În prezent scutește întreaga persoană dacă aparține oricărei echipe selectate, inclusiv mai multor echipe. Înregistrările nu conțin o echipă de lucru.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Ai introdus mai mult de %threshold% de muncă neîntreruptă. Prin urmare, înregistrării tale i s-a adăugat automat o pauză de %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Ai depășit timpul maxim de lucru de %threshold% pe zi de lucru. Prin urmare, înregistrării tale i s-a adăugat automat o pauză de %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> și </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# oră} other {# ore}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minut} other {# minute}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# secundă} other {# secunde}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

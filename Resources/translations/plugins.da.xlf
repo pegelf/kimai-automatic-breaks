@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="da" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Automatiske pauser</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Antal regler (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Anvender fradrag ved første afslutning. Igangværende registreringer ændres ikke. Senere rettelser er mulige.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Vælg 1–10 regler. Gemmes et lavere antal, fjernes de sidste regler.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Registrerede minutter pr. blok før fradrag. Grænsen skal overskrides og være højere end den foregående. Afbrydelser tæller ikke.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Samlet pause, ikke ekstra fradrag. Eksisterende pauser medregnes. Den højeste regel erstatter tidligere regler. Totaler må ikke falde.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maksimale nettominutter på tværs af dagens blokke. Overskud trækkes fra den senest afsluttede registrering. 0 deaktiverer grænsen.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Mindste udstemplet pause, der genstarter blokreglerne. 0 deaktiverer genstart inden for arbejdsdagen. Dagsgrænsen er uafhængig.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Afbrydelse, der starter en ny arbejdsdag og nulstiller begge tællere. Standard: 660 minutter. Midnat alene nulstiller intet.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Fritager aktuelt hele personen ved medlemskab af et valgt team, også ved flere teams. Registreringer indeholder intet arbejdsteam.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Du har registreret mere end %threshold% sammenhængende arbejde. Derfor blev der automatisk tilføjet %added% pause til din registrering.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Du har overskredet den maksimale arbejdstid på %threshold% pr. arbejdsdag. Derfor blev der automatisk tilføjet %added% pause til din registrering.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> og </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# time} other {# timer}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minut} other {# minutter}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekund} other {# sekunder}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

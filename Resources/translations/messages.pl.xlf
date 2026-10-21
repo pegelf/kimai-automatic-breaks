@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pl" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Automatyczne przerwy</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Reguła</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Więcej niż (minuty)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Łączna przerwa (minuty)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Maksymalny czas pracy (minuty; 0 = wyłączone)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Nowy blok pracy po przerwie (minuty)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Nowy dzień pracy po przerwie (minuty)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Wykluczone zespoły</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Zakończone wpisy można edytować. Usunięte odliczenia nie są naliczane ponownie.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Obliczone odliczenia nie dowodzą, że przerwa została wykorzystana.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Pierwotne automatyczne odliczenie (minuty)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Sprawdź ten wpis ręcznie.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Sprawdź kolejność progów, łączne przerwy i długość przerw między wpisami.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Liczba reguł (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Stosuje potrącenia przy pierwszym zakończeniu wpisu. Działające liczniki pozostają bez zmian. Późniejsze korekty są możliwe.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Wybierz od 1 do 10 reguł. Zapisanie mniejszej liczby usuwa ostatnie reguły.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Zarejestrowane minuty bloku przed potrąceniami. Próg musi zostać przekroczony i być wyższy od poprzedniego. Przerwy między wpisami nie są pracą.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Łączna przerwa, nie dodatkowe potrącenie. Istniejące przerwy są uwzględniane. Najwyższa reguła zastępuje poprzednie. Sumy nie mogą maleć.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maksymalna liczba minut netto we wszystkich blokach dnia. Nadwyżka jest potrącana z ostatnio zakończonego wpisu. 0 wyłącza limit.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minimalna przerwa po wyrejestrowaniu, która restartuje reguły bloku. 0 wyłącza restart w obrębie dnia. Limit dzienny pozostaje niezależny.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Przerwa rozpoczynająca nowy dzień i zerująca oba liczniki. Domyślnie: 660 minut. Sama północ nie zeruje liczników.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Obecnie wyłącza całą osobę należącą do dowolnego wybranego zespołu, także przy wielu członkostwach. Wpis nie zawiera zespołu wykonującego pracę.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Wprowadzono ponad %threshold% nieprzerwanej pracy. Dlatego do wpisu automatycznie dodano przerwę wynoszącą %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Przekroczono maksymalny czas pracy wynoszący %threshold% na dzień roboczy. Dlatego do wpisu automatycznie dodano przerwę wynoszącą %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> i </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# godzina} few {# godziny} other {# godzin}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuta} few {# minuty} other {# minut}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekunda} few {# sekundy} other {# sekund}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

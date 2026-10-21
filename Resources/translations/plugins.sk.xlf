@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="sk" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Automatické prestávky</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Počet pravidiel (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Uplatní odpočty pri prvom dokončení záznamu. Bežiace časovače sa nemenia. Neskoršie opravy sú možné.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Vyberte 1–10 pravidiel. Uloženie menšieho počtu odstráni posledné pravidlá.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Zaznamenané minúty bloku pred odpočtami. Prah musí byť prekročený a vyšší než predchádzajúci. Prerušenia sa nepočítajú ako práca.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Celková prestávka, nie ďalší odpočet. Existujúce prestávky sa započítajú. Najvyššie pravidlo nahrádza predchádzajúce. Súčty nesmú klesať.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maximálne čisté minúty za všetky bloky dňa. Prebytok sa odpočíta z najnovšieho dokončeného záznamu. 0 vypne limit.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minimálne odhlásené prerušenie, ktoré reštartuje pravidlá bloku. 0 vypne reštart v rámci dňa. Denné maximum je nezávislé.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Prerušenie začínajúce nový pracovný deň a nulujúce oba počítadlá. Predvolené: 660 minút. Samotná polnoc ich nenuluje.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Teraz vyníma celú osobu, ak patrí do ktoréhokoľvek vybraného tímu, aj pri viacerých členstvách. Záznam neobsahuje pracovný tím.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Zadali ste viac ako %threshold% nepretržitej práce. Do záznamu preto bola automaticky pridaná prestávka v trvaní %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Prekročili ste maximálny pracovný čas %threshold% za pracovný deň. Do záznamu preto bola automaticky pridaná prestávka v trvaní %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> a </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# hodina} few {# hodiny} other {# hodín}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minúta} few {# minúty} other {# minút}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekunda} few {# sekundy} other {# sekúnd}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

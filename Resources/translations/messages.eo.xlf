@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="eo" datatype="plaintext" original="messages.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.title"><source>automatic_breaks.title</source><target>Aŭtomataj paŭzoj</target></trans-unit>
+      <trans-unit id="2" resname="automatic_breaks.rule"><source>automatic_breaks.rule</source><target>Regulo</target></trans-unit>
+      <trans-unit id="3" resname="automatic_breaks.threshold"><source>automatic_breaks.threshold</source><target>Pli ol (minutoj)</target></trans-unit>
+      <trans-unit id="4" resname="automatic_breaks.total"><source>automatic_breaks.total</source><target>Tuta paŭzo (minutoj)</target></trans-unit>
+      <trans-unit id="5" resname="automatic_breaks.maximum"><source>automatic_breaks.maximum</source><target>Maksimuma labortempo (minutoj; 0 = malŝaltita)</target></trans-unit>
+      <trans-unit id="6" resname="automatic_breaks.reset"><source>automatic_breaks.reset</source><target>Nova laborbloko post interrompo (minutoj)</target></trans-unit>
+      <trans-unit id="7" resname="automatic_breaks.workday"><source>automatic_breaks.workday</source><target>Nova labortago post interrompo (minutoj)</target></trans-unit>
+      <trans-unit id="8" resname="automatic_breaks.excluded"><source>automatic_breaks.excluded</source><target>Ekskluditaj teamoj</target></trans-unit>
+      <trans-unit id="9" resname="automatic_breaks.editable"><source>automatic_breaks.editable</source><target>Finitaj registraĵoj restas redakteblaj. Forigitaj deprenoj ne estas reaplikataj.</target></trans-unit>
+      <trans-unit id="10" resname="automatic_breaks.legal"><source>automatic_breaks.legal</source><target>Kalkulitaj deprenoj ne pruvas, ke paŭzo okazis.</target></trans-unit>
+      <trans-unit id="11" resname="automatic_breaks.added"><source>automatic_breaks.added</source><target>Origina aŭtomata depreno (minutoj)</target></trans-unit>
+      <trans-unit id="12" resname="automatic_breaks.review"><source>automatic_breaks.review</source><target>Bonvolu kontroli ĉi tiun registraĵon permane.</target></trans-unit>
+      <trans-unit id="13" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Kontrolu la ordon de sojloj, tutajn paŭzojn kaj daŭrojn de interrompoj.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Nombro de reguloj (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Aplikas deprenojn ĉe la unua finigo. Aktivaj tempomezuriloj ne ŝanĝiĝas. Postaj korektoj restas eblaj.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Elektu 1–10 regulojn. Konservi pli malgrandan nombron forigas la lastajn regulojn.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Registritaj minutoj en la bloko antaŭ deprenoj. La sojlo devas esti superita kaj pli alta ol la antaŭa. Interrompoj ne estas laboro.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Tuta paŭzo, ne aldona depreno. Ekzistantaj paŭzoj estas kredititaj. La plej alta regulo anstataŭas la antaŭajn. Totaloj ne rajtas malpliiĝi.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maksimumaj netaj minutoj tra ĉiuj blokoj de la labortago. Troo estas deprenita de la lasta finita registro. 0 malŝaltas la limon.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minimuma elstampita interrompo, kiu rekomencas la blokajn regulojn. 0 malŝaltas rekomencojn ene de labortago. La taga maksimumo estas sendependa.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Interrompo komencanta novan labortagon kaj nuliganta ambaŭ nombrilojn. Defaŭlte: 660 minutoj. Noktomezo sola ne nuligas ilin.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Nun esceptas la tutan personon se ĝi apartenas al iu elektita teamo, ankaŭ kun pluraj membrecoj. Registroj ne enhavas laborteamon.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Vi registris pli ol %threshold% da seninterrompa laboro. Tial %added% da paŭzo estis aŭtomate aldonitaj al via enskribo.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Vi superis la maksimuman labortempon de %threshold% por labortago. Tial %added% da paŭzo estis aŭtomate aldonitaj al via enskribo.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> kaj </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# horo} other {# horoj}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuto} other {# minutoj}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekundo} other {# sekundoj}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Проверьте порядок порогов, общее время перерывов и длительность промежутков.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Количество правил (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Применяет вычеты при первом завершении записи. Активные таймеры не изменяются. Последующие исправления разрешены.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Выберите от 1 до 10 правил. Сохранение меньшего количества удаляет последние правила.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Записанные минуты блока до вычетов. Порог должен быть превышен и быть выше предыдущего. Промежутки между записями не являются работой.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Общая пауза, а не дополнительный вычет. Имеющиеся паузы учитываются. Наивысшее правило заменяет предыдущие. Итоги не могут уменьшаться.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Максимум чистых минут по всем блокам рабочего дня. Превышение вычитается из последней завершённой записи. 0 отключает ограничение.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Минимальный промежуток после выхода, перезапускающий правила блока. 0 отключает перезапуск в пределах рабочего дня. Дневной максимум независим.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Промежуток, начинающий новый рабочий день и сбрасывающий оба счётчика. По умолчанию: 660 минут. Полночь сама по себе их не сбрасывает.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Сейчас освобождает человека целиком при членстве в любой выбранной команде, даже в нескольких командах. Рабочая команда в записи не хранится.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Вы указали более %threshold% непрерывной работы. Поэтому к записи автоматически добавлен перерыв продолжительностью %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Вы превысили максимальное рабочее время %threshold% за рабочий день. Поэтому к записи автоматически добавлен перерыв продолжительностью %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> и </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# час} few {# часа} other {# часов}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# минута} few {# минуты} other {# минут}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# секунда} few {# секунды} other {# секунд}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

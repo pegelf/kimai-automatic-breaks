@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="vi" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Kiểm tra thứ tự ngưỡng, tổng thời gian nghỉ và độ dài gián đoạn.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Số lượng quy tắc (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Áp dụng khấu trừ khi hoàn tất bản ghi lần đầu. Bộ đếm đang chạy không thay đổi. Vẫn cho phép sửa sau đó.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Chọn 1–10 quy tắc. Lưu số lượng nhỏ hơn sẽ xóa các quy tắc cuối.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Số phút đã ghi trong khối trước khấu trừ. Phải vượt ngưỡng và ngưỡng phải cao hơn ngưỡng trước. Khoảng chấm công ra không tính là làm việc.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Tổng thời gian nghỉ, không phải khấu trừ thêm. Tính cả giờ nghỉ đã có. Quy tắc cao nhất thay các quy tắc trước. Tổng không được giảm.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Số phút làm việc ròng tối đa trong mọi khối của ngày. Phần vượt bị trừ từ bản ghi hoàn tất mới nhất. 0 tắt giới hạn.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Khoảng chấm công ra tối thiểu để bắt đầu lại quy tắc khối. 0 tắt việc bắt đầu lại trong ngày làm việc. Giới hạn ngày vẫn độc lập.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Khoảng nghỉ bắt đầu ngày làm việc mới và đặt lại cả hai bộ đếm. Mặc định: 660 phút. Nửa đêm không tự đặt lại.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Hiện miễn toàn bộ người thuộc bất kỳ nhóm đã chọn nào, kể cả khi thuộc nhiều nhóm. Bản ghi không lưu nhóm đang làm việc.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Bạn đã nhập hơn %threshold% làm việc liên tục. Vì vậy, %added% nghỉ đã được tự động thêm vào bản ghi của bạn.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Bạn đã vượt quá thời gian làm việc tối đa %threshold% mỗi ngày làm việc. Vì vậy, %added% nghỉ đã được tự động thêm vào bản ghi của bạn.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> và </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# giờ}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# phút}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# giây}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

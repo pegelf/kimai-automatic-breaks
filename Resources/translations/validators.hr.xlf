@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="hr" datatype="plaintext" original="validators.en.xlf">
+    <body>
+      <trans-unit id="1" resname="automatic_breaks.invalid"><source>automatic_breaks.invalid</source><target>Provjerite redoslijed pragova, ukupne stanke i trajanje prekida.</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Broj pravila (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Primjenjuje odbitke pri prvom završetku zapisa. Aktivni mjerači ostaju nepromijenjeni. Naknadne ispravke su moguće.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Odaberite 1–10 pravila. Spremanje manjeg broja uklanja posljednja pravila.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Zabilježene minute bloka prije odbitaka. Prag mora biti premašen i veći od prethodnog. Prekidi se ne računaju kao rad.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Ukupna stanka, ne dodatni odbitak. Postojeće stanke se uračunavaju. Najviše pravilo zamjenjuje prethodna. Ukupni iznosi ne smiju padati.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Najviše neto minuta u svim blokovima dana. Višak se odbija od najnovijeg završenog zapisa. 0 isključuje ograničenje.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Najmanji prekid nakon odjave koji ponovno pokreće pravila bloka. 0 isključuje ponovno pokretanje unutar dana. Dnevno ograničenje je neovisno.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Prekid koji započinje novi radni dan i poništava oba brojača. Zadano: 660 minuta. Sama ponoć ih ne poništava.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Trenutno izuzima cijelu osobu ako je član bilo kojeg odabranog tima, čak i uz više timova. Zapisi ne sadrže radni tim.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Unijeli ste više od %threshold% neprekidnog rada. Zato je vašem unosu automatski dodana stanka od %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Prekoračili ste maksimalno radno vrijeme od %threshold% po radnom danu. Zato je vašem unosu automatski dodana stanka od %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> i </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# sat} few {# sata} other {# sati}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuta} few {# minute} other {# minuta}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekunda} few {# sekunde} other {# sekundi}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

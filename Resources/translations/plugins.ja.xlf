@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ja" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>自動休憩</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>ルール数（1～10）</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>記録を初めて終了するときに控除します。稼働中のタイマーは変更しません。後から修正できます。</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>ルールを1～10個選択します。少ない数で保存すると、末尾のルールが削除されます。</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>控除前のブロック内の記録分数です。しきい値を超えたときに適用し、前のしきい値より大きくする必要があります。退勤中の時間は含みません。</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>追加控除ではなく休憩の合計です。既存の休憩を考慮し、到達した最上位ルールが前のルールを置き換えます。合計は減らせません。</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>勤務日の全ブロックを合計した正味労働時間の上限（分）です。超過分を最後に終了した記録から控除します。0で無効になります。</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>ブロックのルールを最初から数え直すために必要な最短の退勤時間です。0で勤務日内のリセットを無効にします。1日の上限とは独立しています。</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>新しい勤務日を開始して両方のカウンターをリセットする退勤時間です。既定は660分です。午前0時だけではリセットしません。</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>現在は、選択したいずれかのチームに所属する人の全作業を除外します。複数チーム所属でも同様です。各時間記録には作業チームが保存されません。</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">%threshold%を超える連続勤務を記録しました。そのため、この記録に%added%の休憩が自動的に追加されました。</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">1労働日あたりの上限労働時間%threshold%を超えました。そのため、この記録に%added%の休憩が自動的に追加されました。</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve">、</target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# 時間}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# 分}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# 秒}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

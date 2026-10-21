@@ -1,0 +1,7 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+    KimaiPlugin\AutomaticBreaksBundle\:
+        resource: '../../*'
+        exclude: '../../{DependencyInjection,Resources,Tests,docs,Event,AutomaticBreaksBundle.php,Calculation/Policy.php,Calculation/Block.php,Calculation/Result.php,Notification/Receipt.php}'

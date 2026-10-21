@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="he" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>הפסקות אוטומטיות</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>מספר הכללים (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>מחיל ניכויים בסיום הראשון של הרשומה. טיימרים פעילים לא משתנים. ניתן לתקן לאחר מכן.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>בחרו 1–10 כללים. שמירת מספר קטן יותר מסירה את הכללים האחרונים.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>דקות שנרשמו במקטע לפני ניכויים. יש לעבור את הסף והוא חייב להיות גבוה מהקודם. זמן מחוץ לרישום אינו עבודה.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>סך ההפסקה, לא ניכוי נוסף. הפסקות קיימות נלקחות בחשבון. הכלל הגבוה ביותר מחליף את הקודמים. הסכומים לא יכולים לרדת.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>מקסימום דקות נטו בכל מקטעי יום העבודה. העודף מנוכה מהרשומה האחרונה שהושלמה. 0 מבטל את המגבלה.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>משך היציאה המזערי שמתחיל מחדש את כללי המקטע. 0 מבטל התחלה מחדש בתוך יום העבודה. המקסימום היומי עצמאי.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>יציאה שמתחילה יום עבודה חדש ומאפסת את שני המונים. ברירת מחדל: 660 דקות. חצות לבדה אינה מאפסת.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>כרגע פוטר את האדם כולו אם הוא חבר בצוות נבחר כלשהו, גם עם חברות במספר צוותים. הרשומה אינה שומרת צוות עבודה.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">הזנת יותר מ־%threshold% של עבודה רצופה. לכן נוספה לרישום שלך באופן אוטומטי הפסקה של %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">חרגת מזמן העבודה המרבי של %threshold% ליום עבודה. לכן נוספה לרישום שלך באופן אוטומטי הפסקה של %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> ו־</target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# שעה} other {# שעות}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# דקה} other {# דקות}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# שנייה} other {# שניות}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

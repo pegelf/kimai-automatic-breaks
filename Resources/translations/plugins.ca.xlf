@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ca" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Pauses automàtiques</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Nombre de regles (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Aplica deduccions en completar una entrada per primer cop. Els temporitzadors actius no canvien. Es permeten correccions posteriors.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Tria d’1 a 10 regles. Desar un nombre inferior elimina les darreres regles.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Minuts registrats per bloc abans de deduccions. Cal superar el llindar, que ha de ser superior a l’anterior. Les interrupcions no compten.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Pausa total, no addicional. Es compten les pauses existents. La regla més alta substitueix les anteriors. Els totals no poden disminuir.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Màxim de minuts nets de tots els blocs del dia. L’excés es descompta de la darrera entrada completada. 0 desactiva el límit.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Interrupció mínima que reinicia les regles del bloc. 0 desactiva el reinici dins del dia. El màxim diari és independent.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Interrupció que inicia un nou dia i reinicia tots dos comptadors. Per defecte: 660 minuts. La mitjanit sola no els reinicia.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Actualment eximeix tota la persona si pertany a qualsevol equip seleccionat, encara que tingui diversos equips. Les entrades no registren un equip de treball.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Has registrat més de %threshold% de treball seguit. Per això, s’han afegit automàticament %added% de pausa al registre.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Has superat el temps màxim de treball de %threshold% per jornada. Per això, s’han afegit automàticament %added% de pausa al registre.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> i </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# hora} other {# hores}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minut} other {# minuts}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# segon} other {# segons}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,7 @@
+{% from '@Tabler/components/alert.html.twig' import alert %}
+<div class="automatic-breaks-notices mx-3" data-automatic-breaks-panel>
+    {% for notice in notices %}
+        {{ alert({type: 'info', title: notice.title ~ ' · #' ~ notice.timesheetId, description: notice.message, important: false, class: 'automatic-breaks-notice', attr: {'data-automatic-breaks-id': notice.id}}) }}
+    {% endfor %}
+</div>
+<script type="application/json" data-automatic-breaks-notices>{{ notices|json_encode(15)|raw }}</script>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="cs" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Automatické přestávky</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Počet pravidel (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Uplatní odpočty při prvním dokončení záznamu. Běžící časovače se nemění. Pozdější opravy jsou možné.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Vyberte 1–10 pravidel. Uložení menšího počtu odstraní poslední pravidla.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Zaznamenané minuty bloku před odpočty. Práh musí být překročen a vyšší než předchozí. Přerušení se nezapočítávají jako práce.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Celková přestávka, nikoli další odpočet. Existující přestávky se započítají. Nejvyšší pravidlo nahrazuje předchozí. Součty nesmějí klesat.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maximální čisté minuty za všechny bloky dne. Přebytek se odečte z nejnovějšího dokončeného záznamu. 0 vypne limit.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minimální odhlášené přerušení, které restartuje pravidla bloku. 0 vypne restart v rámci dne. Denní maximum je nezávislé.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Přerušení začínající nový pracovní den a nulující oba čítače. Výchozí: 660 minut. Samotná půlnoc čítače nenuluje.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Nyní vyjímá celou osobu, pokud patří do kteréhokoli vybraného týmu, i při více členstvích. Záznam neobsahuje pracovní tým.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Zadali jste více než %threshold% nepřetržité práce. Do záznamu proto byla automaticky přidána přestávka v délce %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Překročili jste maximální pracovní dobu %threshold% za pracovní den. Do záznamu proto byla automaticky přidána přestávka v délce %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> a </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# hodina} few {# hodiny} other {# hodin}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuta} few {# minuty} other {# minut}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekunda} few {# sekundy} other {# sekund}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

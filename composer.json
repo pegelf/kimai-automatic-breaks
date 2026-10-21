@@ -1,0 +1,9 @@
+{
+    "name": "cvjm/automatic-breaks-bundle",
+    "description": "Configurable automatic break deductions for Kimai with team exclusions and editable corrections",
+    "type": "kimai-plugin",
+    "version": "1.5.0",
+    "license": "AGPL-3.0-or-later",
+    "require": {"php": ">=8.2"},
+    "extra": {"kimai": {"require": 26600, "name": "Automatic Breaks"}}
+}

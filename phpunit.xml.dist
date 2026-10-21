@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="Tests/bootstrap.php" colors="true" cacheDirectory=".phpunit.cache" failOnWarning="true">
+    <testsuites><testsuite name="Automatic Breaks"><directory>Tests</directory></testsuite></testsuites>
+</phpunit>

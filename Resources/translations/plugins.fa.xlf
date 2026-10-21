@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="fa" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>استراحت‌های خودکار</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>تعداد قوانین (۱–۱۰)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>کسورات را هنگام پایان نخستین ثبت اعمال می‌کند. زمان‌سنج‌های فعال تغییر نمی‌کنند. اصلاحات بعدی ممکن است.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>از ۱ تا ۱۰ قانون انتخاب کنید. ذخیره تعداد کمتر، قوانین انتهایی را حذف می‌کند.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>دقایق ثبت‌شده در بازه پیش از کسر. باید از آستانه عبور شود و آستانه از قبلی بیشتر باشد. زمان خروج، کار محسوب نمی‌شود.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>کل استراحت، نه کسر اضافی. استراحت‌های موجود منظور می‌شوند. بالاترین قانون جایگزین قبلی‌ها می‌شود. مجموع‌ها نباید کاهش یابند.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>حداکثر دقایق خالص تمام بازه‌های روز کاری. مازاد از آخرین ثبت تکمیل‌شده کسر می‌شود. ۰ محدودیت را غیرفعال می‌کند.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>حداقل فاصله خروج برای شروع دوباره قوانین بازه. ۰ شروع دوباره در روز کاری را غیرفعال می‌کند. سقف روزانه مستقل است.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>فاصله خروجی که روز کاری جدید را آغاز و هر دو شمارنده را بازنشانی می‌کند. پیش‌فرض: ۶۶۰ دقیقه. نیمه‌شب به‌تنهایی بازنشانی نمی‌کند.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>اکنون کل شخص را در صورت عضویت در هر تیم انتخاب‌شده معاف می‌کند، حتی با چند عضویت. تیم کاری در هر ثبت ذخیره نمی‌شود.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">بیش از %threshold% کار پیوسته ثبت کرده‌اید. بنابراین %added% استراحت به‌طور خودکار به ثبت شما اضافه شد.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">از حداکثر زمان کار %threshold% در هر روز کاری عبور کرده‌اید. بنابراین %added% استراحت به‌طور خودکار به ثبت شما اضافه شد.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> و </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, other {# ساعت}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, other {# دقیقه}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, other {# ثانیه}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

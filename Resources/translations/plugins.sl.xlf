@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="sl" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Samodejni odmori</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Število pravil (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Odšteje odmore ob prvem zaključku zapisa. Aktivni časovniki se ne spremenijo. Poznejši popravki ostanejo mogoči.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Izberite 1–10 pravil. Shranjevanje manjšega števila odstrani zadnja pravila.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Zabeležene minute bloka pred odbitki. Prag mora biti presežen in višji od prejšnjega. Prekinitve niso delovni čas.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Skupni odmor, ne dodatni odbitek. Obstoječi odmori se upoštevajo. Najvišje pravilo nadomesti prejšnja. Vsote ne smejo padati.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Največ neto minut v vseh blokih dneva. Presežek se odšteje od najnovejšega zaključenega zapisa. 0 izklopi omejitev.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Najkrajša odjavljena prekinitev, ki znova zažene pravila bloka. 0 izklopi ponovni zagon znotraj dneva. Dnevna omejitev je neodvisna.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Prekinitev, ki začne nov delovni dan in ponastavi oba števca. Privzeto: 660 minut. Sama polnoč ju ne ponastavi.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Trenutno izvzame celotno osebo, če pripada kateri koli izbrani ekipi, tudi pri več članstvih. Zapisi ne vsebujejo delovne ekipe.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Vnesli ste več kot %threshold% neprekinjenega dela. Zato je bil vašemu vnosu samodejno dodan odmor v trajanju %added%.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Presegli ste najdaljši delovni čas %threshold% na delovni dan. Zato je bil vašemu vnosu samodejno dodan odmor v trajanju %added%.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> in </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# ura} two {# uri} few {# ure} other {# ur}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minuta} two {# minuti} few {# minute} other {# minut}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekunda} two {# sekundi} few {# sekunde} other {# sekund}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>

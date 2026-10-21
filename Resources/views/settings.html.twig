@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% form_theme form '@AutomaticBreaks/form_theme.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        form[name="settings"] .form-check-label { display: inline; margin-inline-end: .5rem; }
+        .automatic-breaks-label { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 .5rem; }
+        .automatic-breaks-help { flex: 0 0 auto; border: 0; cursor: help; }
+        .automatic-breaks-tooltip { position: fixed; z-index: 1080; width: min(22rem, calc(100vw - 1rem)); padding: .75rem; border-radius: var(--tblr-border-radius, .375rem); background: var(--tblr-bg-surface-dark, #182433); color: #fff; box-shadow: 0 .25rem .75rem #0003; font-size: .875rem; font-weight: normal; line-height: 1.5; text-align: start; visibility: hidden; pointer-events: none; }
+        .automatic-breaks-tooltip.is-visible { visibility: visible; pointer-events: auto; }
+        .automatic-breaks-help:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+    </style>
+{% endblock %}
+
+{% block main %}
+    {% if not breaks_enabled %}
+        <div class="alert alert-warning" role="alert" id="automatic-breaks-disabled-warning">
+            {{ 'automatic_breaks.breaks_disabled'|trans }}
+        </div>
+    {% endif %}
+    <div class="alert alert-info" role="note">
+        {% if breaks_enabled %}{{ 'automatic_breaks.editable'|trans }}{% endif %}
+        {{ 'automatic_breaks.legal'|trans }}
+    </div>
+    {% embed 'default/_form.html.twig' with {title: 'automatic_breaks.title'|trans, form: form, reset: false} %}
+        {% block form_body %}
+            {{ form_row(form.enabled) }}
+            <h3>{{ 'automatic_breaks.rules'|trans }}</h3>
+            <p class="text-secondary">{{ 'automatic_breaks.rules_help'|trans }}</p>
+            {{ form_errors(form.rules) }}
+            <div id="automatic-breaks-rules" data-max-rules="{{ max_rules }}">
+                {% for rule in form.rules %}
+                    {% include '@AutomaticBreaks/rule.html.twig' with {rule: rule, number: loop.index} only %}
+                {% endfor %}
+            </div>
+            <template id="automatic-breaks-rule-template">
+                {% include '@AutomaticBreaks/rule.html.twig' with {rule: form.rules.vars.prototype, number: '__number__'} only %}
+            </template>
+            <button type="button" class="btn btn-outline-primary mb-4" id="automatic-breaks-add">
+                <span class="me-2" aria-hidden="true">+</span>{{ 'automatic_breaks.add_rule'|trans }}
+            </button>
+            <div class="visually-hidden" id="automatic-breaks-rule-status" aria-live="polite" data-message="{{ 'automatic_breaks.sorted'|trans }}"></div>
+            <hr>
+            <h3>{{ 'automatic_breaks.grouping'|trans }}</h3>
+            {% do form.rules.setRendered %}
+            <div class="row">
+                <div class="col-lg-4">{{ form_row(form.maximumWork) }}</div>
+                <div class="col-lg-4">{{ form_row(form.resetGap) }}</div>
+                <div class="col-lg-4">{{ form_row(form.workdayGap) }}</div>
+            </div>
+            <p class="text-secondary">{{ 'automatic_breaks.grouping_help'|trans }}</p>
+            {{ form_row(form.excludedTeams) }}
+            {{ form_rest(form) }}
+        {% endblock %}
+    {% endembed %}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script>{% include '@AutomaticBreaks/rules.js.twig' %}</script>
+    <script>{% include '@AutomaticBreaks/help.js.twig' %}</script>
+{% endblock %}

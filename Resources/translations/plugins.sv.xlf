@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="sv" datatype="plaintext" original="plugins.en.xlf">
+    <body>
+      <trans-unit id="1" resname="Automatic Breaks"><source>Automatic Breaks</source><target>Automatiska raster</target></trans-unit>
+      <trans-unit id="14" resname="automatic_breaks.rule_count"><source>automatic_breaks.rule_count</source><target>Antal regler (1–10)</target></trans-unit>
+      <trans-unit id="15" resname="automatic_breaks.help.enabled"><source>automatic_breaks.help.enabled</source><target>Gör avdrag vid första avslutet. Pågående tidtagning ändras inte. Senare korrigeringar är möjliga.</target></trans-unit>
+      <trans-unit id="16" resname="automatic_breaks.help.rule_count"><source>automatic_breaks.help.rule_count</source><target>Välj 1–10 regler. Om ett lägre antal sparas tas de sista reglerna bort.</target></trans-unit>
+      <trans-unit id="17" resname="automatic_breaks.help.threshold"><source>automatic_breaks.help.threshold</source><target>Registrerade minuter per block före avdrag. Gränsen måste överskridas och vara högre än föregående. Avbrott räknas inte.</target></trans-unit>
+      <trans-unit id="18" resname="automatic_breaks.help.total"><source>automatic_breaks.help.total</source><target>Total rast, inget extra avdrag. Befintliga raster räknas av. Den högsta regeln ersätter tidigare regler. Totalerna får inte minska.</target></trans-unit>
+      <trans-unit id="19" resname="automatic_breaks.help.maximum"><source>automatic_breaks.help.maximum</source><target>Maximala nettominuter för dagens alla block. Överskott dras från den senast avslutade registreringen. 0 stänger av gränsen.</target></trans-unit>
+      <trans-unit id="20" resname="automatic_breaks.help.reset"><source>automatic_breaks.help.reset</source><target>Minsta utstämplade avbrott som startar om blockreglerna. 0 stänger av omstart inom arbetsdagen. Dygnsgränsen är oberoende.</target></trans-unit>
+      <trans-unit id="21" resname="automatic_breaks.help.workday"><source>automatic_breaks.help.workday</source><target>Avbrott som startar en ny arbetsdag och nollställer båda räknarna. Standard: 660 minuter. Midnatt ensam nollställer inget.</target></trans-unit>
+      <trans-unit id="22" resname="automatic_breaks.help.excluded"><source>automatic_breaks.help.excluded</source><target>Undantar för närvarande hela personen vid medlemskap i något valt team, även med flera team. Registreringar innehåller inget arbetsteam.</target></trans-unit>
+      <trans-unit id="23" resname="automatic_breaks.notice.rule"><source>automatic_breaks.notice.rule</source><target xml:space="preserve">Du har registrerat mer än %threshold% sammanhängande arbete. Därför lades %added% rast till automatiskt i din registrering.</target></trans-unit>
+      <trans-unit id="24" resname="automatic_breaks.notice.maximum"><source>automatic_breaks.notice.maximum</source><target xml:space="preserve">Du har överskridit den maximala arbetstiden på %threshold% per arbetsdag. Därför lades %added% rast till automatiskt i din registrering.</target></trans-unit>
+      <trans-unit id="25" resname="automatic_breaks.duration.separator"><source>automatic_breaks.duration.separator</source><target xml:space="preserve"> och </target></trans-unit>
+      <trans-unit id="26" resname="automatic_breaks.duration.hours"><source>automatic_breaks.duration.hours</source><target xml:space="preserve">{count, plural, one {# timme} other {# timmar}}</target></trans-unit>
+      <trans-unit id="27" resname="automatic_breaks.duration.minutes"><source>automatic_breaks.duration.minutes</source><target xml:space="preserve">{count, plural, one {# minut} other {# minuter}}</target></trans-unit>
+      <trans-unit id="28" resname="automatic_breaks.duration.seconds"><source>automatic_breaks.duration.seconds</source><target xml:space="preserve">{count, plural, one {# sekund} other {# sekunder}}</target></trans-unit>
+    </body>
+  </file>
+</xliff>
